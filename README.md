@@ -5,11 +5,14 @@ This repository contains code for reconstructing Einstein's conceptual path to t
 
 Install the dependencies using:
 
+```bash
 pip install -r requirements.txt
 
 ## Code Structure
 
-notebooks/ — Interactive experiments and demos.
+### Notebooks
+
+`notebooks/` — Interactive experiments and demos.
 
 `all_search_methods_demo.ipynb` — runs all methods and aggregates results.
 
@@ -19,7 +22,13 @@ notebooks/ — Interactive experiments and demos.
 
 `bayes_neural_search_demo.ipynb` — Bayesian + neural hybrid.
 
-Other exploratory notebooks: `assumption_conclusion_switch_discovery_mechanism.ipynb`, `distinction_discovery_mechanism.ipynb`, `bayes_neural_search_paths.ipynb`.
+### Other exploratory notebooks: 
+
+`assumption_conclusion_switch_discovery_mechanism.ipynb`
+
+`distinction_discovery_mechanism.ipynb`
+
+`bayes_neural_search_paths.ipynb`
 
 scripts/ — Core library and runnable modules used by the notebooks.
 
@@ -39,7 +48,7 @@ Summary stats: `enum_stats.csv`, `pure_bayes_stats.csv`, `bayes_neural_stats.csv
 
 You can run the project via **notebooks** or **scripts**.
 
-### A) Notebooks (recommended)
+### Notebooks 
 Open in VS Code/Jupyter/Google Drive and **Run All**:
 - `notebooks/all_search_methods_demo.ipynb` 
 Or run individual search methods:
@@ -49,7 +58,7 @@ Or run individual search methods:
 
 Artifacts are written to `output/` (CSV files listed above; figures if plotting cells are enabled).
 
-### B) Scripts (from the repo root)
+### Scripts 
 Run a method directly:
 ```bash
 - python scripts/enumeration_search.py
