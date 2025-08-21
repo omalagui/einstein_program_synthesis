@@ -44,7 +44,7 @@ Results produced by notebooks (auto-created): `output/`.
 
 Success index CSVs: `success_indices_enum.csv`, `success_indices_pure_bayes.csv`, `success_indices_bayes_neural.csv`.
 
-Summary stats: `enum_stats.csv`, `pure_bayes_stats.csv`, `bayes_neural_stats.csv` 
+Summary statistics: `enum_stats.csv`, `pure_bayes_stats.csv`, `bayes_neural_stats.csv` 
 
 ## Run Experiments
 
@@ -59,7 +59,7 @@ Open in VS Code/Jupyter/Google Drive and run the following:
 - bayes_neural_search_demo.ipynb
 ```
 
-Outputs is stored in `output/` (CSV files listed above)
+Results are stored in `output/` (CSV files listed above)
 
 ### Scripts 
 Run a script directly:
