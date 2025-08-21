@@ -23,21 +23,21 @@ pip install -r requirements.txt
 
 `bayes_neural_search_demo.ipynb` — Bayesian + neural hybrid.
 
-### Other exploratory notebooks: 
+`assumption_conclusion_switch_discovery_mechanism.ipynb` — runs assumption-conclusion switch discovery mechanism step by step.
 
-`assumption_conclusion_switch_discovery_mechanism.ipynb`
+`bayes_neural_search_paths.ipynb` - runs all Bayesian + neural conceptual paths to the relativity of time
 
-`distinction_discovery_mechanism.ipynb`
+`scripts/` — Core library and runnable modules used by the notebooks.
 
-`bayes_neural_search_paths.ipynb`
-
-scripts/ — Core library and runnable modules used by the notebooks.
+### Scripts
 
 Search methods: `enumeration_search.py`, `pure_bayes_search.py`, `bayes_neural_search.py`.
 
 Formal system & reasoning: `typing_rules.py`, `einstein_types.py`, `judgments.py`, `context.py`.
 
 Synthesis engine & helpers: `synthesis_primitives.py`, `synthesis_state.py`, `simplify.py`.
+
+### Output
 
 output/ — Results produced by notebooks (auto-created).
 
@@ -50,17 +50,17 @@ Summary stats: `enum_stats.csv`, `pure_bayes_stats.csv`, `bayes_neural_stats.csv
 You can run the project via **notebooks** or **scripts**.
 
 ### Notebooks 
-Open in VS Code/Jupyter/Google Drive and **Run All**:
+Open in VS Code/Jupyter/Google Drive and run the 
 - `notebooks/all_search_methods_demo.ipynb` 
 Or run individual search methods:
 - `enumeration_search_demo.ipynb`
 - `pure_bayes_search_demo.ipynb`
 - `bayes_neural_search_demo.ipynb`
 
-Artifacts are written to `output/` (CSV files listed above; figures if plotting cells are enabled).
+Outputs is stored in `output/` (CSV files listed above)
 
 ### Scripts 
-Run a method directly:
+Run a script directly:
 ```bash
 - python scripts/enumeration_search.py
 - python scripts/pure_bayes_search.py
