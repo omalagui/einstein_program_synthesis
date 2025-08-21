@@ -13,35 +13,36 @@ pip install -r requirements.txt
 
 ### Notebooks
 
-`notebooks/` — Interactive experiments and demos.
+Interactive demos and experiments: `notebooks/`.
 
-`all_search_methods_demo.ipynb` — runs all methods and aggregates results.
+Runs all search methods and aggregates results: `all_search_methods_demo.ipynb`.
 
-`enumeration_search_demo.ipynb` — pure enumeration baseline.
+Enumeration search: `enumeration_search_demo.ipynb`.
 
-`pure_bayes_search_demo.ipynb` — Bayesian search baseline.
+Pure bayesian search: `pure_bayes_search_demo.ipynb`.
 
-`bayes_neural_search_demo.ipynb` — Bayesian + neural hybrid.
+Bayes-neural search: `bayes_neural_search_demo.ipynb`.
 
-`assumption_conclusion_switch_discovery_mechanism.ipynb` — runs assumption-conclusion switch discovery mechanism step by step.
+Runs assumption-conclusion switch discovery mechanism step by step: `assumption_conclusion_switch_discovery_mechanism.ipynb`.
 
-`bayes_neural_search_paths.ipynb` - runs all Bayesian + neural conceptual paths to the relativity of time
+Runs all Bayesian + neural conceptual paths to the relativity of time: `bayes_neural_search_paths.ipynb`.
 
-`scripts/` — Core library and runnable modules used by the notebooks.
 
 ### Scripts
 
+Core library and runnable modules used by the notebooks: `scripts/`.
+
 Search methods: `enumeration_search.py`, `pure_bayes_search.py`, `bayes_neural_search.py`.
 
-Formal system & reasoning: `typing_rules.py`, `einstein_types.py`, `judgments.py`, `context.py`.
+Formal system & reasoning: `typing_rules.py`, `einstein_types.py`, `judgments.py`, `context.py`, `simplify.py`.
 
-Synthesis engine & helpers: `synthesis_primitives.py`, `synthesis_state.py`, `simplify.py`.
+Synthesis state and primitives: `synthesis_state.py`, `synthesis_primitives.py`.
 
 ### Output
 
-output/ — Results produced by notebooks (auto-created).
+Results produced by notebooks (auto-created): `output/`.
 
-Success index CSVs: `success_indices_enum.csv`, `success_indices_pure_bayes.csv`, `success_indices_bayes_neural.csv` (IDs/problems solved by each method).
+Success index CSVs: `success_indices_enum.csv`, `success_indices_pure_bayes.csv`, `success_indices_bayes_neural.csv`.
 
 Summary stats: `enum_stats.csv`, `pure_bayes_stats.csv`, `bayes_neural_stats.csv` 
 
@@ -50,12 +51,13 @@ Summary stats: `enum_stats.csv`, `pure_bayes_stats.csv`, `bayes_neural_stats.csv
 You can run the project via **notebooks** or **scripts**.
 
 ### Notebooks 
-Open in VS Code/Jupyter/Google Drive and run the 
-- `notebooks/all_search_methods_demo.ipynb` 
-Or run individual search methods:
-- `enumeration_search_demo.ipynb`
-- `pure_bayes_search_demo.ipynb`
-- `bayes_neural_search_demo.ipynb`
+Open in VS Code/Jupyter/Google Drive and run the following:
+```bash
+- notebooks/all_search_methods_demo.ipynb
+- enumeration_search_demo.ipynb
+- pure_bayes_search_demo.ipynb
+- bayes_neural_search_demo.ipynb
+```
 
 Outputs is stored in `output/` (CSV files listed above)
 
@@ -65,3 +67,4 @@ Run a script directly:
 - python scripts/enumeration_search.py
 - python scripts/pure_bayes_search.py
 - python scripts/bayes_neural_search.py
+```
