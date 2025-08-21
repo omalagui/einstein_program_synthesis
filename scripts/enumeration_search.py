@@ -19,7 +19,7 @@ from synthesis_primitives import PRIMITIVES
 # ──────────────────────────────────────────────────────────────
 # Configuration
 # ──────────────────────────────────────────────────────────────
-MAX_SAMPLES  = 1000
+MAX_SAMPLES  = 100
 CHAIN_LENGTH = 8
 USE_GREEDY   = False   # True = greedy; False = weighted sampling
 
@@ -36,11 +36,11 @@ TARGET_TERM  = "f(-k*y + t*w - k*u*x/c)"   # for backward-gate checks & closenes
 BACKWARD_NAMES = {"BWD"}
 
 # Toggleable constraints
-ENABLE_NO_REPEAT             = False  # True #False
-ENABLE_SUB1_CONSTRAINT       = False  # True #False
-ENABLE_SIM_SIMPUS_CONSTRAINT = False  # True #False
-ENABLE_SIMPUS_SIM_CONSTRAINT = False  # True #False
-ENABLE_BACKWARD_GATE         = False  # True #False
+ENABLE_NO_REPEAT             = True #False
+ENABLE_SUB1_CONSTRAINT       = True #False
+ENABLE_SIM_SIMPUS_CONSTRAINT = True #False
+ENABLE_SIMPUS_SIM_CONSTRAINT = True #False
+ENABLE_BACKWARD_GATE         = True #False
 ENABLE_BACKWARD_ONLY_MODE    = False
 
 # Per-run logging (only in run_experiments)

@@ -247,9 +247,9 @@ if __name__ == "__main__":
     pr.disable()
     s = io.StringIO()
     ps = pstats.Stats(pr, stream=s).strip_dirs().sort_stats("cumtime")
-    ps.print_stats(20)
-    print("\n=== PROFILING RESULTS ===")
-    print(s.getvalue())
+    # ps.print_stats(20)
+    # print("\n=== PROFILING RESULTS ===")
+    # print(s.getvalue())
 
     t1 = time.perf_counter()
     print(f"\n✅ Total elapsed time: {t1 - t0:.2f} seconds")

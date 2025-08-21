@@ -45,11 +45,11 @@ TARGET_TERM       = "f(-k*y + t*w - k*u*x/c)"
 MIX_BASE          = 0.1    # annealing start weight on neural
 
 BACKWARD_NAMES            = {"BWD"}
-ENABLE_NO_REPEAT          = False # True # False 
-ENABLE_SUB1_CONSTRAINT    = False # True # False 
-ENABLE_SIM_SIMPUS_CONSTRAINT  = False # True # False 
-ENABLE_SIMPUS_SIM_CONSTRAINT  = False # True # False 
-ENABLE_BACKWARD_GATE      = False # True # False 
+ENABLE_NO_REPEAT          = True # False 
+ENABLE_SUB1_CONSTRAINT    = True # False 
+ENABLE_SIM_SIMPUS_CONSTRAINT  = True # False 
+ENABLE_SIMPUS_SIM_CONSTRAINT  = True # False 
+ENABLE_BACKWARD_GATE      = True # False 
 ENABLE_BACKWARD_ONLY_MODE = False
 
 # ─── Toggle per-run logging on/off ────────────────────
